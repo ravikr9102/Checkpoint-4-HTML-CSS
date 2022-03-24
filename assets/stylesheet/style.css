@@ -1388,7 +1388,7 @@ form {
     bottom: 0;
     right: 0;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     padding-top: 12rem;
     z-index: 9;
   }
@@ -1487,7 +1487,7 @@ form {
     padding: 0 12rem;
   }
   .top {
-    margin-left: 35rem;
+    margin-left: 30rem;
   }
   /* Blog Page */
   .header-2 {
