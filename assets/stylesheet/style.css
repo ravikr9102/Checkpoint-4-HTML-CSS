@@ -392,6 +392,9 @@ header {
 .social {
   margin-left: 1.8rem;
 }
+.btn-started{
+  padding-left: 2rem;
+}
 .social i {
   width: 2rem;
   height: 2rem;
@@ -498,9 +501,9 @@ header {
   padding: 1rem 0;
   object-fit: cover;
 }
-.circle i {
-  width: 3rem;
-  height: 3rem;
+.circle i{
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   border: 1px solid #ec7048;
   background-color: #ffffff;
@@ -508,7 +511,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 0 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .circle i:hover {
   background-color: #f8380c;
@@ -516,9 +519,6 @@ header {
 }
 .circle i {
   font-size: 1.5rem;
-}
-.video {
-  box-shadow: 2px 2px 20px #ea5433;
 }
 .about-section h3 {
   font-weight: 700;
@@ -594,6 +594,9 @@ header {
 .future-col-1 article:hover {
   background-color: #ea5433;
   color: #ffffff;
+}
+.future-col-1 article:hover p{
+  color: #fff;
 }
 .future-col-1 {
   width: 48%;
@@ -1016,14 +1019,20 @@ form {
   font-weight: 700;
   font-size: 0.9rem;
 }
+.subscribe {
+  padding: 0.2rem 0.8rem;
+  position: relative;
+  left: -35px;
+  top: -3px;
+}
 .search-box {
   width: 10rem;
-  height: 2rem;
-  padding: 0.2rem 1rem;
+  height: 1.90rem;
+  padding: 0.1rem 0.8rem;
   display: inline-block;
   border: 1px solid #bb4025;
   border-radius: 2rem;
-  margin-right: -2rem;
+  margin-right: -1rem;
 }
 .flex-1 .btn-primary {
   background-color: #f8380c;
